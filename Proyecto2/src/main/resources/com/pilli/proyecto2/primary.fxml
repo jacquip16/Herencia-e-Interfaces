@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" spacing="15.0" 
+      xmlns="http://javafx.com/javafx/8.0.171" 
+      xmlns:fx="http://javafx.com/fxml/1" 
+      fx:controller="com.pilli.proyecto2.PrimaryController">
+   <children>
+      <Label text="Ejercicio 2.2 - Herencia e Interfaces" style="-fx-font-weight: bold; -fx-font-size: 16px;" />
+      
+      <!-- Botón de prueba -->
+      <Button fx:id="btnEjecutar" text="Ejecutar Test" onAction="#btnEjecutar_click" prefWidth="150.0" />
+      
+      <!-- Terminal de salida -->
+      <Label text="Terminal / Salida:" style="-fx-font-weight: bold;" />
+      <TextArea fx:id="txtTerminal" editable="false" prefWidth="380.0" prefHeight="160.0" 
+                style="-fx-font-family: monospace; -fx-font-size: 12px;" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
