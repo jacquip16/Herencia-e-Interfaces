@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" spacing="15.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.PrimaryController" style="-fx-background-color: #F8F9FA;">
+   <padding>
+      <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+   </padding>
+   <children>
+      <Label text="Práctica 2.1: Herencia" textFill="#2C3E50">
+         <font>
+           <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnEjecutar" mnemonicParsing="false" onAction="#ejecutarPrueba" style="-fx-background-color: #3498DB; -fx-text-fill: white; -fx-cursor: hand;" text="Ejecutar Prueba">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="txtSalida" editable="false" prefHeight="150.5" prefWidth="300.0" style="-fx-control-inner-background: #FFFFFF;" />
+   </children>
+</VBox>
